@@ -1,5 +1,6 @@
-from staff_availability.models import db, StaffAvailability
-from .models import Staff, db
+from config import db
+from staff_availability.models import StaffAvailability
+from .models import Staff
 from .validations import staff_schema, staffs_schema 
 from staff_availability.validations import staff_avail_schema
 from utils.custom_response import custom_response
