@@ -1,0 +1,8 @@
+.venv
+__pychache__
+courses/__pychache__
+migrations
+staff_availability/__pychache__
+staffs/__pychache__
+students/__pychache__
+utils/__pychache__
